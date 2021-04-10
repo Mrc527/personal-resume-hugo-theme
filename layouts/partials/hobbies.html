@@ -1,0 +1,27 @@
+{{ if .Site.Data.homepage.hobbies.enable }}
+<div id="hobbies" style="position:relative; top: -2rem"></div>
+<section class="section rad-animation-group section--border-bottom" >
+    <div class="container">
+        <h2 class="rad-fade-down">{{ .Site.Data.homepage.hobbies.title }}</h2>
+        <div class="row row--padded mb-0 rad-fade-down">
+            {{ range .Site.Data.homepage.hobbies.items }}
+            <div class="col-12 col-md-6 mb-6 mb-md-0 hobbies">
+                <div class="hobbies__author">
+                    <div class="hobbies__author-info">
+                        <h4>{{ .title }}</h4>
+                    </div>
+                    <img class="lozad hobbies__author-image"
+                         src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                         data-src="{{ .image.x | absURL }}"
+                         data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+                         alt="{{ .name }}"/>
+                    <p>
+                        {{ .description }}
+                    </p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,12 @@
+name = "Persoanl Resume Hugo Theme"
+license = "MIT"
+licenselink = "https://github.com/Mrc527/personal-resume-hugo-theme/blob/master/LICENSE"
+description = "A free Personal Resume Hugo Theme by Marco Visin: Modern, Fast, Fresh and of course responsive."
+homepage = "https://www.visin.ch/"
+tags = ['personal-website', 'personal', 'portfolio', 'single-page', 'one-page', 'fast', 'typography', 'customizable', 'mobile', 'resume', 'fresh', 'modern', 'flexbox', 'hugo-theme', 'hugo', 'bootstrap', 'responsive', 'clean', 'simple', 'creative', 'contact form', 'light', 'white', 'custom-design', 'minimal', 'minimalistic', 'minimalist', 'portfolio', 'google tag manager', 'google analytics', 'customizable', 'flexbox', 'starter', 'theme']
+features = ['responsive', 'bootstrap']
+min_version = "0.59.0"
+
+[author]
+  name = "Marco Visin"
+  homepage = "https://www.visin.ch/"
